@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# this script continously build a Latex source if the source file is modified.
+# this script continously builds Latex source if the source file is modified.
 # A single source file is assumed.
 # Works only in Mac OSX because of the stat command used to get the last modidied time stamp.
 echo "Provide the Latex project file name (without .tex): "
